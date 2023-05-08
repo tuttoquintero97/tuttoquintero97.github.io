@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+   <section class="container">
+        <section>
+        <div class="titulo">
+            <h1>MI ENCRIPTADOR</h1>
+            
+        </div>
+        <div class="encriptar">
+            <textarea class="textarea" placeholder="Ingresa el texto aquí" name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <div class="informacion">
+            <p>Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="botones">
+        <button class="btn-encriptar" type="button" onclick="encriptar()">
+        Encriptar
+        </button>
+        <button class="btn-desencriptar" type="button" onclick="desencriptar()">
+            Desencriptar
+        </button>
+        <button id="copiar" type="button" class="copiar" onclick="copiar()">Copiar</button>
+        </div>
+        </section>
+    <section class="encriptado">
+        <img class="ilustracion" src="https://lukaszadam.com/assets/downloads/tools.svg" alt="ilustracion" id="ilustracion">
+        <div class="mensaje-encriptado" id="mensaje-encriptado">
+            <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+            <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p> 
+        </div>
+    </section>
+    <section class="contacto">
+        
+        <a href="https://github.com/tuttoquintero97" target="_blank"><img class="github" src="./github.png.png" alt="github"></a>
+        <a href="https://www.linkedin.com/in/jorge-quintero-344384232/" target="_blank"><img class="linkedin" src="./linkedin.png.png" alt="linkedin"></a>
+        <h3>By: <br>Tutto Quintero</h3>
+    </section>
+    </section>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
